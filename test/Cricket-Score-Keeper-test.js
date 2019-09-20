@@ -3,7 +3,7 @@ const assert = require('assert');
 const CricketScoreKeeper = require('../Cricket-Score-Keeper');
 
 describe('cricket score keeper', function () {
-    it('should be able to if there is no points scored in 1 over', function () {
+    it('should be able to show zero if there is no points scored in 1 over', function () {
         const checkScore = CricketScoreKeeper();
         
         checkScore.addScore('-----');

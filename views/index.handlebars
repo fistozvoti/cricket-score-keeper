@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <div class="six columns">
+        <h5>Cricket score Keeper</h5>
+        
+        <form action="/input/overs" method="POST">
+
+            <label for="exampleEmailInput">Set Overs:</label>
+            <input class="u-full-width setOvers" type="number" step=".01" name="setovers"
+                placeholder="enter number of overs here" value="">
+        </form>
+    </div>
+
+    <form action="/play/buttons" method="POST">
+        <div class=''>
+            <button type="submit" name='playBtns' value='1' class="playCricket">1</button>
+            <button type="submit" name='playBtns' value='2' class="playCricket">2</button>
+            <button type="submit" name='playBtns' value='3' class="playCricket">3</button>
+            <button type="submit" name='playBtns' value='4' class="playCricket">4</button>
+            <button type="submit" name='playBtns' value='6' class="playCricket">6</button>
+            <button type="submit" name='playBtns' value='w' class="playCricket">w</button>
+            <button type="submit" name='playBtns' value='-' class="playCricket">-</button>
+        </div>
+    </form>
+</body>
+
+</html>
