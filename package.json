@@ -7,10 +7,11 @@
     "test": "test"
   },
   "scripts": {
+    "start": "node index.js",
     "test": "mocha"
   },
   "keywords": [],
-  "author": "",
+  "author": "Iviwe",
   "license": "ISC",
   "devDependencies": {
     "mocha": "^6.2.0"
